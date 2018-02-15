@@ -1,12 +1,13 @@
 {
   "name": "ngx-octopus-connect",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf bundles coverage src/**/*.d.ts src/**/*.metadata.json src/**/*.js tests/**/*.d.ts tests/**/*.metadata.json tests/**/*.js settings/**/*.d.ts settings/**/*.metadata.json settings/**/*.js index.d.ts index.metadata.json index.js",
-    "compile": "ngc"
+    "compile": "ngc",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,18 @@
   },
   "homepage": "https://github.com/tralalere/ngx-octopus-connect#readme",
   "dependencies": {
+    "octopus-connect": "0.0.2",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.18"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=2.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0",
     "@angular/animations": "^4.4.4",
     "@angular/common": "^4.4.4",
     "@angular/compiler": "^4.4.4",
@@ -28,14 +41,6 @@
     "@angular/platform-browser": "4.4.4",
     "@angular/platform-browser-dynamic": "4.4.4",
     "@angular/platform-server": "4.4.4",
-    "@angular/router": "4.4.4",
-    "octopus-connect": "0.0.1",
-    "rxjs": "^5.4.3",
-    "zone.js": "^0.8.18"
-  },
-  "devDependencies": {
-    "rimraf": "^2.6.2",
-    "typescript": "^2.5.3",
-    "webpack": "^3.6.0"
+    "@angular/router": "4.4.4"
   }
 }
