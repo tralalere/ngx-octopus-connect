@@ -18,5 +18,5 @@ module.exports = {
             { test: /\.ts?$/, loader: "ts-loader" }
         ]
     },
-    externals: [/^\@angular\//, /^rxjs\//, /^octopus-connect\//]
+    externals: [/^\@angular\//, /^rxjs\//, /^octopus-connect/]
 };
