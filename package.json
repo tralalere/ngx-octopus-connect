@@ -1,6 +1,6 @@
 {
   "name": "ngx-octopus-connect",
-  "version": "0.0.23",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tralalere/ngx-octopus-connect#readme",
   "dependencies": {
-    "octopus-connect": "^0.0.18",
+    "octopus-connect": "^0.1.1",
     "rxjs": "^5.4.3",
     "zone.js": "^0.8.18"
   },
