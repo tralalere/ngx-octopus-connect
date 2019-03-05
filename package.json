@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tralalere/ngx-octopus-connect#readme",
   "dependencies": {
-    "octopus-connect": "^0.2.15",
+    "octopus-connect": "^0.2.16",
     "zone.js": "^0.8.18"
   },
   "peerDependencies": {
